@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const movie = require('./routes/movieRoutes')
+const movies = require('./routes/moviesRoutes')
 
 app.use(express.json())
 app.use('/movies', movies)

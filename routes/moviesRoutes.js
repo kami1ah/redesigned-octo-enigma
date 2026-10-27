@@ -1,7 +1,8 @@
 const express = require('express')
 const router = express.Router()
-const fruits = require('../controllers/moviesControllers')
+const movies = require('../controllers/moviesControllers')
 
+router.get('/', movies.index)
 
 
 
